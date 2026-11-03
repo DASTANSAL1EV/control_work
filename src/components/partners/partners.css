@@ -1,0 +1,12 @@
+.Parners_container{
+    background-color: rgb(219, 219, 219);
+    height: 80%;
+    width: 100%;
+    padding: 90px;
+}
+
+.partners_imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

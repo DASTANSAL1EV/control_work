@@ -1,0 +1,71 @@
+/* header.css */
+
+.header_container {
+    width: 100%;
+    max-width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 150px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Логотип */
+  .icon {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .icon img {
+    display: block;
+    height: auto;
+    max-height: 24px;
+  }
+  
+  /* Меню + иконки */
+  .uls {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+  
+  .uls ul {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .uls li {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4b5563;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+  }
+  
+  .uls li:hover {
+    color: #6c5ce7;
+  }
+  
+  /* Иконки поиска и входа (Frame 217) */
+  .icons {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .icons img {
+    display: block;
+    cursor: pointer;
+  }

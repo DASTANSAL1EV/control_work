@@ -1,0 +1,53 @@
+.secondBanner_container {
+    display: grid;
+    grid-template-columns: 759px 351px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 90px;
+    width: 100%;
+    padding: 90px 0 120px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .secBanImg {
+    grid-column: 1 / -1;
+    line-height: 0;
+  }
+  
+  .secBanImg img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .SecBanImg {
+    line-height: 0;
+  }
+  
+  .SecBanImg img {
+    display: block;
+    width: 731px;
+    max-width: 100%;
+    height: auto;
+  }
+  .desc_secBan {
+    align-self: center;
+  }
+  
+  .desc_secBan h1 {
+    margin: 0 0 32px;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #5f6670;
+  }
+  
+  .desc_secBan p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8b919b;
+  }

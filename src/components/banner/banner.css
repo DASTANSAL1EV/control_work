@@ -1,0 +1,75 @@
+/* banner.css */
+
+.banner_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1110px;
+    height: 624px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Текстовый блок */
+  .descriptions_banner {
+    max-width: 480px;
+  }
+  
+  .descriptions_banner h1 {
+    margin: 0 0 32px;
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+    color: #475569;
+  }
+  
+  .descriptions_banner p {
+    max-width: 400px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #7b8596;
+  }
+  
+  /* Кнопка */
+  .btn_banner {
+    width: 257px;
+    height: 70px;
+    margin-top: 36px;
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid #6c5ce7;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1;
+    color: #6c5ce7;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .btn_banner:hover {
+    background-color: #6c5ce7;
+    color: #ffffff;
+  }
+  
+  /* Картинка справа */
+  .banner_img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 542px;
+    line-height: 0;
+  }
+  
+  .banner_img img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
